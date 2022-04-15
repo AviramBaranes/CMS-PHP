@@ -48,7 +48,7 @@
               ></a>
               <ul id="posts_dropdown" class="collapse">
                 <li>
-                  <a href="#">All Posts</a>
+                  <a href="./posts.php">All Posts</a>
                 </li>
                 <li>
                   <a href="#">Add Post</a>
@@ -56,7 +56,7 @@
               </ul>
             </li>
             <li>
-              <a href="bootstrap-grid.html"
+              <a href="./categories.php"
                 ><i class="fa fa-fw fa-wrench"></i> Categories</a
               >
             </li>

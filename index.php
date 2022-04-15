@@ -26,6 +26,7 @@
                     $author = $row['post_author'];
                     $date = $row['post_date'];
                     $content = $row['post_content'];
+                    $image = $row['post_image'];
             ?>
                 <h1 class="page-header">
                     Page Heading
@@ -41,7 +42,7 @@
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span><?php echo $date?></p>
                 <hr>
-                <img class="img-responsive" src="https://www.ski2freedom.com/thumbs/home/index-banner/winter-mountains-900x300-q60.jpg" alt="">
+                <img class="img-responsive" src="./images/<?php echo $image?>" alt="">
                 <hr>
                 <p><?php echo $content ?></p>
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
